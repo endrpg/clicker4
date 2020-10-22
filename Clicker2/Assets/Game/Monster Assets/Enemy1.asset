@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b012c33e304d004c9fb6182289537ba, type: 3}
+  m_Name: Enemy1
+  m_EditorClassIdentifier: 
+  weakAgainst: 0
+  strongAgainst: 0
+  weakAgainst2: 0
+  strongAgainst2: 0
+  weaponStrong: 0
+  weaponWeak: 0
+  health: 0
+  defense: 0
+  attack: 0
+  goldToWin: 0
+  evade: 0
+  enemySprite: {fileID: 0}
+  monsterName: 
+  monsterInfo: 
