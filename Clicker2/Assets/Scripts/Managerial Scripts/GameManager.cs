@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class GameManager : MonoBehaviour
+using GameDevTV.Saving;
+public class GameManager : MonoBehaviour,ISaveable
 {
     private static GameManager instance;
     public static GameManager Instance
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
     public Player player;
     public Enemy enemy;
     [SerializeField]float gold = 100;
-    public GameObject parentPanel;
+    public GameObject parentPanel;  
     public List<IconCreator> myPowerups;
     public List<GeneralEnemy> Tier1Enemy;
     public List<GeneralEnemy> Tier2Enemy;
@@ -146,5 +147,19 @@ public class GameManager : MonoBehaviour
     public void AddGold(float coins)
     {
         gold += coins;
+    }
+    //Saving
+    public object CaptureState()
+    {
+        Dictionary<string,object> data = new Dictionary<string,object>();
+        data["ListMyPowerups"] = myPowerups;
+        data["goldValue"] = gold;
+        return data;
+    }
+    public void RestoreState(object state)
+    {
+        Dictionary<string,object> data = (Dictionary<string,object>) state;
+        myPowerups = (List<IconCreator>)data["ListMyPowerups"];
+        gold = (float)data["goldValue"];
     }
 }

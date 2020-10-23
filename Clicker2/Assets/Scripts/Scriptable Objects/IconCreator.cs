@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 [CreateAssetMenu(fileName = "IconCreator", menuName = "Icon/New Icon")]
+[System.Serializable]
 public class IconCreator : ScriptableObject
 {
     public Sprite iconSprite;

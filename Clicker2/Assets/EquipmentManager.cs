@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class EquipmentManager : MonoBehaviour
+using GameDevTV.Saving;
+public class EquipmentManager : MonoBehaviour,ISaveable
 {
     private static EquipmentManager instance;
     public static EquipmentManager Instance
@@ -65,6 +66,34 @@ public class EquipmentManager : MonoBehaviour
             sp.GetComponent<Image>().color = c;
             sp.GetComponent<Image>().sprite = ic.iconSprite;
         }
+    }
+    //Saving
+    public object CaptureState()
+    {
+        Dictionary<string,object> data = new Dictionary<string,object>();
+        data["ListEquipment"] = Equipment;
+        data["headE"] = head;
+        data["chestE"] = chest;
+        data["torsoE"] = torso;
+        data["shoesE"] = shoes;
+        data["equipmentE"] = equipment;
+        data["shieldE"] = shield;
+        data["ring1E"] = ring1;
+        data["ring2E"] = ring2;
+        return data;
+    }
+    public void RestoreState(object state)
+    {
+        Dictionary<string,object> data = (Dictionary<string,object>) state;
+        Equipment = (List<IconCreator>)data["ListEquipment"];
+        head = (IconCreator)data["headE"];
+        chest = (IconCreator)data["chestE"];
+        torso = (IconCreator)data["torsoE"];
+        shoes = (IconCreator)data["shoesE"];
+        equipment = (IconCreator)data["equipmentE"];
+        shield = (IconCreator)data["shieldE"];
+        ring1 = (IconCreator)data["ring1E"];
+        ring2 = (IconCreator)data["ring2E"];
     }
 
 }
