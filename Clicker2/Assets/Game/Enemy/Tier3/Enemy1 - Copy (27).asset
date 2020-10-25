@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b012c33e304d004c9fb6182289537ba, type: 3}
+  m_Name: Enemy1 - Copy (27)
+  m_EditorClassIdentifier: 
+  enemySprite: {fileID: 21300000, guid: 28f3a08fce0faf04fad1c12f2fa75d15, type: 3}
+  monsterName: 
+  monsterInfo: 
+  health: 1000
+  attack: 400
+  defense: 200
+  goldToWin: 500
+  evadePercent: 0
+  criticalAttackPercentage: 0
+  criticalAttackMultiplier: 0
+  weakAgainst: 3
+  strongAgainst: 3
+  weakAgainst2: 3
+  strongAgainst2: 3
+  ItemDrop: 0
