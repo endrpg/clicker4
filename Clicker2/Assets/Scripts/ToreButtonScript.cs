@@ -37,6 +37,8 @@ public class ToreButtonScript : MonoBehaviour
         goldCOnfirm.transform.SetParent(GameObject.Find("Store Panel").transform,false);
         goldCOnfirm.transform.localPosition = new Vector2(0,0);
         goldCOnfirm.transform.GetChild(1).GetComponent<confirmScript>().myObj = myStoreObj;
-        goldCOnfirm.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "This will cost you " +myStoreObj.price.ToString() + "G";
+        goldCOnfirm.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price: " +myStoreObj.price.ToString() + "G";
+        goldCOnfirm.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = myStoreObj.iconTitle;
+        goldCOnfirm.transform.GetChild(4).GetComponent<TextMeshProUGUI>().text = myStoreObj.iconDescription;
     }
 }

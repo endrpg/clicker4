@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 [CreateAssetMenu(fileName = "IconCreator", menuName = "Icon/New Icon")]
 [System.Serializable]
 public class IconCreator : ScriptableObject
@@ -27,6 +28,7 @@ public class IconCreator : ScriptableObject
     public float permanentLuckinc;
     public float hpIncrease;
     public float lifeIncrease;
+    public string uniqueId;
     public GameObject effect;
     [System.Serializable]
     public enum Tiers

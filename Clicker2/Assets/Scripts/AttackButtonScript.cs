@@ -55,7 +55,7 @@ public class AttackButtonScript : MonoBehaviour
             }
             if(myObj.effect != null)
             {
-                GameObject effect = Instantiate(myObj.effect,new Vector2(31,422),Quaternion.identity);
+                GameObject effect = Instantiate(myObj.effect,new Vector2((float)-306.2,(float)-164.98),Quaternion.identity);
                 effect.transform.SetParent(GameObject.Find("War Panel").transform,false);
                 Destroy(effect,1f);
             }

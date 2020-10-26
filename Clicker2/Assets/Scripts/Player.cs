@@ -14,13 +14,18 @@ public class Player : MonoBehaviour,ISaveable
     public float evadePercent = 10f;
     public float permanentLuck = 10f;
     public GameObject losePanel;
+    public bool instantiated;
     // Update is called once per frame
     void Update()
     {
-        if(currentHp <= 0)
+        if(currentHp <= 0 && !instantiated)
         {
+            instantiated = true;
             GameManager.Instance.currentTurn = true;
             GameObject lost = Instantiate(losePanel,GameObject.Find("War Panel").transform);
+            GameManager.Instance.hearts -= 1;
+            GameManager.Instance.warsFought += 1;
+            GameManager.Instance.AddGold(Random.Range(1,10));
         }
     }
     //Saving

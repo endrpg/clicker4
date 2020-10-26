@@ -13,6 +13,7 @@ public class StatManager : MonoBehaviour
     public TextMeshProUGUI evadeValue;
     public TextMeshProUGUI criticalPerValue;
     public TextMeshProUGUI criticalBonusValue;
+    public TextMeshProUGUI goldValue;
     public GameObject heart1;
     public GameObject heart2;
     public GameObject heart3;
@@ -54,6 +55,7 @@ public class StatManager : MonoBehaviour
             heart2Img.a = 0f;
             heart3Img.a = 0f;
         }
+        goldValue.text = GameManager.Instance.ReturnGold().ToString();
         hpValue.text = GameManager.Instance.player.permanentHp.ToString();
         strengthValue.text = GameManager.Instance.player.permStrength.ToString();
         defenseValue.text = GameManager.Instance.player.permDefense.ToString();

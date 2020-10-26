@@ -6,6 +6,8 @@ public class Sleeping : MonoBehaviour
 {
     public float goldRequirement = 2f;
     public float hpIncreaseSleep = 1f;
+    public GameObject toShow;
+    public GameObject toUnshow;
     Button me;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +23,18 @@ public class Sleeping : MonoBehaviour
     }
     void Sleep()
     {
-        GameManager.Instance.RemoveGold(goldRequirement);
-        GameManager.Instance.player.permanentHp += hpIncreaseSleep;
+        if(GameManager.Instance.hearts > 0)
+        {
+            GameManager.Instance.RemoveGold(goldRequirement);
+            GameManager.Instance.player.permanentHp += hpIncreaseSleep;
+        }
+        else if(GameManager.Instance.hearts == 0)
+        {
+            GameManager.Instance.GameReset();
+            toUnshow.SetActive(false);
+            toShow.SetActive(true);
+        }
+        Destroy(transform.parent.gameObject);
+        GameManager.Instance.InstantiateFalse();
     }
 }

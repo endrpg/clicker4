@@ -65,13 +65,27 @@ public class EquipmentManager : MonoBehaviour,ISaveable
             c.a = 1;
             sp.GetComponent<Image>().color = c;
             sp.GetComponent<Image>().sprite = ic.iconSprite;
+            GameManager.Instance.player.permanentHp = ic.hpIncrease;
+            GameManager.Instance.player.permStrength = ic.permanentStrengthInc;
+            GameManager.Instance.player.permDefense = ic.permanentDefenseInc;
+            GameManager.Instance.player.accuracyPercent = ic.permanentAccuracyInc;
+            GameManager.Instance.player.evadePercent = ic.permanentDodgeInc;
+            GameManager.Instance.player.permanentLuck = ic.permanentLuckinc;
+            GameManager.Instance.player.criticalAttackPercentage = ic.criticalAtkpercentage;
+            GameManager.Instance.player.criticalAttackMultiplier = ic.critmultiplier;
+            
         }
     }
     //Saving
     public object CaptureState()
     {
         Dictionary<string,object> data = new Dictionary<string,object>();
-        data["ListEquipment"] = Equipment;
+        var slotStrings = new string [Equipment.Count];
+        for (int i = 0; i < Equipment.Count;i++)
+        {
+            slotStrings[i] = Equipment[i].uniqueId;
+        }
+        data["EquipmentList"] = slotStrings;
         data["headE"] = head;
         data["chestE"] = chest;
         data["torsoE"] = torso;
@@ -85,7 +99,16 @@ public class EquipmentManager : MonoBehaviour,ISaveable
     public void RestoreState(object state)
     {
         Dictionary<string,object> data = (Dictionary<string,object>) state;
-        Equipment = (List<IconCreator>)data["ListEquipment"];
+        var restoreList = (string[])data["myEquipmentList"];
+        foreach(var item in GameObject.Find("Store Manager").GetComponent<StoreManager>().allIcons)
+        {
+            var itemId = item.uniqueId;
+            int pos = System.Array.IndexOf(restoreList,itemId);
+            if(pos > -1)
+            {
+                Equipment.Add(item);
+            }
+        }
         head = (IconCreator)data["headE"];
         chest = (IconCreator)data["chestE"];
         torso = (IconCreator)data["torsoE"];
