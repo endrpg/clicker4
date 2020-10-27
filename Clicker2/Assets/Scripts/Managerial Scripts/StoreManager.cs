@@ -58,7 +58,7 @@ public class StoreManager : MonoBehaviour
     }
     void ProbabilityDistribution()
     {
-        for(int i = 0; i < 2;i+=1)
+        for(int i = 0; i < 8;i+=1)
         {
             float prob = Random.value;
             if(prob >= tier1Prob)

@@ -41,28 +41,30 @@ public class GameManager : MonoBehaviour,ISaveable
     }
     void Start()
     {
-        player = GameObject.Find("Player").GetComponent<Player>();
         playerHealth.maxValue = player.currentHp;
+    }
+    void currentfalse()
+    {
+        currentTurn = true;
     }
     public void DoDamage(float damage)
     {
         if(!currentTurn)
         {
-            currentTurn = true;
             float evadeValue = Random.value;
-            if(evadeValue < player.evadePercent/100)
+            if(evadeValue > player.evadePercent/100)
             {
                 CriticalDamage(player.criticalAttackPercentage/100, damage);
                 player.currentHp -= (float)Mathf.RoundToInt(damage - (Random.value * player.permDefense));
                 Debug.Log("Player " + player.currentHp);
                 WriterScript.Instance.Debuging("Enemy Hit You, " + "You : " + player.currentHp.ToString());
             }
+            currentfalse();
         }
         else if(currentTurn)
         {
-            currentTurn = false;
             float evadeValue = Random.value;
-            if(evadeValue < myEnemyObj.evadePercent/100)
+            if(evadeValue > myEnemyObj.evadePercent/100)
             {
                 if(tempType != -1 && (tempType == (int)myEnemyObj.weakAgainst|| tempType == (int)myEnemyObj.weakAgainst2))
                 {
@@ -83,6 +85,7 @@ public class GameManager : MonoBehaviour,ISaveable
                 }
                 Debug.Log("Enemy " + enemy.health);
             }
+            currentTurn = false;
         }
     }
     void CriticalDamage(float toCheck, float damage)
@@ -90,11 +93,11 @@ public class GameManager : MonoBehaviour,ISaveable
         float criticalControl = Random.value;
         if(criticalControl < toCheck)
         {
-            if(!currentTurn)
+            if(currentTurn)
             {
                 enemy.health -= (float)Mathf.RoundToInt((myEnemyObj.criticalAttackMultiplier-1)*(((player.accuracyPercent/100+1)*damage) -(Random.value * enemy.defense)));
             }
-            else if(currentTurn)
+            else if(!currentTurn)
             {
                 player.currentHp -= (float)Mathf.RoundToInt((player.criticalAttackMultiplier-1)*(damage - (Random.value * player.permDefense)));
             }
@@ -102,7 +105,10 @@ public class GameManager : MonoBehaviour,ISaveable
     }
     void Update()
     {
-        enemyHealth.value = myEnemyObj.health;
+        if(myEnemyObj != null)
+        {
+            enemyHealth.value = myEnemyObj.health;
+        }
         playerHealth.value = player.currentHp;
     }
     //Slot Instantiation
@@ -232,13 +238,14 @@ public class GameManager : MonoBehaviour,ISaveable
     {
         Dictionary<string,object> data = (Dictionary<string,object>) state;
         var restoreList = (string[])data["myPowerupsList"];
-        foreach(var item in GameObject.Find("Store Manager").GetComponent<StoreManager>().allIcons)
+        var allIconsList = GameObject.Find("Store Manager").GetComponent<StoreManager>().allIcons;
+        for(int i = 0; i < allIconsList.Count; i++)
         {
-            var itemId = item.uniqueId;
+            var itemId = allIconsList[i];
             int pos = System.Array.IndexOf(restoreList,itemId);
             if(pos > -1)
             {
-                myPowerups.Add(item);
+                myPowerups.Add(allIconsList[i]);
             }
         }
         gold = (float)data["goldValue"];

@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Attack()
     {
         attackDone = true;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(.2f);
         GameManager.Instance.DoDamage(attack);
         attackDone = false;
     }

@@ -59,13 +59,13 @@ public class AttackButtonScript : MonoBehaviour
                 effect.transform.SetParent(GameObject.Find("War Panel").transform,false);
                 Destroy(effect,1f);
             }
-            GameManager.Instance.currentTurn = false;
         }
         if(myObj.amount <= 0)
         {
             GameManager.Instance.myPowerups.RemoveAt((int)itemNo);
             Destroy(this.gameObject);
         }
+        GameManager.Instance.currentTurn = false;
     }
     void UpdateText()
     {
