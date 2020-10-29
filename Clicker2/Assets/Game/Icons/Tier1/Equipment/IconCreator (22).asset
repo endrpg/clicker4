@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 1e245f616bcd48244959d22d54e84771, type: 3}
   iconTitle: Helmet of Yggdrasil
-  iconDescription: Wooden..
+  iconDescription: +12 Def
   strength: 0
   defense: 0
   accuracy: 0
@@ -24,15 +24,16 @@ MonoBehaviour:
   healPower: 0
   amount: 0
   maxAmount: 0
-  price: 65
+  price: 85
   infinite: 1
   permanentStrengthInc: 0
-  permanentDefenseInc: 15
+  permanentDefenseInc: 12
   permanentAccuracyInc: 0
   permanentDodgeInc: 0
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

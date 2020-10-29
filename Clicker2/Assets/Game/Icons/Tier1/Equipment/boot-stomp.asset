@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: f9ff5b544b0db4349b1e8c059825b1e5, type: 3}
   iconTitle: Boots of Dodge
-  iconDescription: Jumps high
+  iconDescription: +2 Def +4 Dodge
   strength: 0
   defense: 0
   accuracy: 0
@@ -27,12 +27,13 @@ MonoBehaviour:
   price: 66
   infinite: 1
   permanentStrengthInc: 0
-  permanentDefenseInc: 20
+  permanentDefenseInc: 2
   permanentAccuracyInc: 0
   permanentDodgeInc: 5
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

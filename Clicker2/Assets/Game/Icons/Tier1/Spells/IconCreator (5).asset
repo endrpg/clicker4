@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: IconCreator (5)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 5def8601662915c4a947ba281d22cac9, type: 3}
-  iconTitle: 
-  iconDescription: 
+  iconTitle: Fire Comet
+  iconDescription: +50 Damage
   strength: 50
   defense: 0
   accuracy: 0
@@ -22,9 +22,9 @@ MonoBehaviour:
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 3
+  price: 150
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,7 +33,8 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
-  type: 0
+  type: 2
   equipment: 0

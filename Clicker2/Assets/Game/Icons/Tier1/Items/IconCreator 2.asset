@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: IconCreator 2
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 82d73e8850a2e56489cbf11a770abd6a, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Dart
+  iconDescription: 35 Attack
+  strength: 35
   defense: 0
   accuracy: 0
   luckPercent: 0
@@ -23,8 +23,8 @@ MonoBehaviour:
   critmultiplier: 0
   healPower: 0
   amount: 0
-  maxAmount: 5
-  price: 5
+  maxAmount: 8
+  price: 150
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

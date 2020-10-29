@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: IconCreator (3)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: ea3f4894de444b24799903b9fd3dc72f, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: The Tusk
+  iconDescription: +30 Damage
+  strength: 30
   defense: 0
   accuracy: 0
   luckPercent: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   healPower: 0
   amount: 5
   maxAmount: 5
-  price: 50
+  price: 80
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

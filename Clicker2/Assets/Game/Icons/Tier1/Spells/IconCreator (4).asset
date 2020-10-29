@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (4)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 26df718aaa88d604fadfbb7fb302c2c0, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Trebuchet
+  iconDescription: +99 Damage
+  strength: 99
   defense: 0
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 1
+  price: 230
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

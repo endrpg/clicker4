@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: dc5c7f8b9167bca4b86e408d1ac5debe, type: 3}
   iconTitle: Armored Shorts
-  iconDescription: Inconceivable
+  iconDescription: +15 Def +2 Dodge
   strength: 0
   defense: 0
   accuracy: 0
@@ -27,12 +27,13 @@ MonoBehaviour:
   price: 100
   infinite: 1
   permanentStrengthInc: 1
-  permanentDefenseInc: 25
+  permanentDefenseInc: 15
   permanentAccuracyInc: 0
-  permanentDodgeInc: 0
+  permanentDodgeInc: 2
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 1
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

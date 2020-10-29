@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: IconCreator
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: bd8a1cb6412be0945ab5d9edd2a0a987, type: 3}
-  iconTitle: 
-  iconDescription: 
+  iconTitle: Small Heal
+  iconDescription: +50 HP
   strength: 0
   defense: 0
   accuracy: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   healPower: 0
   amount: 0
   maxAmount: 5
-  price: 5
+  price: 200
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 50
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

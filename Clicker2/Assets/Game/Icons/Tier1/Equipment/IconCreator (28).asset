@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 9ef9f0b2124eadf408a0ebbdb38f43fd, type: 3}
   iconTitle: Ski Boots
-  iconDescription: Good for Icy Terrain
+  iconDescription: +15 Def -25 Dodge
   strength: 0
   defense: 0
   accuracy: 0
@@ -26,13 +26,14 @@ MonoBehaviour:
   maxAmount: 0
   price: 23
   infinite: 1
-  permanentStrengthInc: 5
+  permanentStrengthInc: 0
   permanentDefenseInc: 15
   permanentAccuracyInc: 0
   permanentDodgeInc: -25
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

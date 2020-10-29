@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: -1
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

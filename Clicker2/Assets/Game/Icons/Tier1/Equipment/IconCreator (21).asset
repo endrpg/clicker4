@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 779bbd9921595434690402ecce580f13, type: 3}
   iconTitle: Green Cape
-  iconDescription: Superhero Status
+  iconDescription: +2 stats
   strength: 0
   defense: 0
   accuracy: 0
@@ -27,12 +27,13 @@ MonoBehaviour:
   price: 100
   infinite: 1
   permanentStrengthInc: 2
-  permanentDefenseInc: 1
-  permanentAccuracyInc: 1
+  permanentDefenseInc: 2
+  permanentAccuracyInc: 2
   permanentDodgeInc: 2
   permanentLuckinc: 2
-  hpIncrease: 16
+  hpIncrease: 22
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

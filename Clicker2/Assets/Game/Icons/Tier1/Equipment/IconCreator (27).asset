@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: f75991d22a87bf64fa63225415362888, type: 3}
   iconTitle: Small Robe of Riding
-  iconDescription: Red in color, hooded
+  iconDescription: Uncommon
   strength: 0
   defense: 0
   accuracy: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 20
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

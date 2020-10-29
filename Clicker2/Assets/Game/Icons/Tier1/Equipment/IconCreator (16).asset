@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: d96dce749ab523949ac98cf92e185f91, type: 3}
   iconTitle: Boots of Walking
-  iconDescription: Common.
+  iconDescription: +1 Def +5HP
   strength: 0
   defense: 0
   accuracy: 0
@@ -31,8 +31,9 @@ MonoBehaviour:
   permanentAccuracyInc: 0
   permanentDodgeInc: 0
   permanentLuckinc: 0
-  hpIncrease: 0
+  hpIncrease: 5
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (9)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 8dc7345bb301a9748a186fd88168d5a7, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Thunder Bolts
+  iconDescription: +75 Damage
+  strength: 75
   defense: 0
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 1
+  price: 125
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,7 +33,8 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
-  type: 0
+  type: 5
   equipment: 0

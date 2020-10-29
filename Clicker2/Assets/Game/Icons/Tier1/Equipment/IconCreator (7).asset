@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 2a8ad85297d04c646818311b453fa3f5, type: 3}
   iconTitle: Ring of Low Stats
-  iconDescription: It's there.
+  iconDescription: +1 Stats
   strength: 0
   defense: 0
   accuracy: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 1
   hpIncrease: 1
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

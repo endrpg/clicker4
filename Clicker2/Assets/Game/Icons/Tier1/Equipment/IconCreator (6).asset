@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 3daaa7939899c1d42ad20d041a4c7a2f, type: 3}
   iconTitle: Cracked Shield
-  iconDescription: Not very effective
+  iconDescription: +2 Def -1 Dodge
   strength: 0
   defense: 0
   accuracy: 0
@@ -27,12 +27,13 @@ MonoBehaviour:
   price: 21
   infinite: 1
   permanentStrengthInc: 0
-  permanentDefenseInc: 5
+  permanentDefenseInc: 2
   permanentAccuracyInc: 0
   permanentDodgeInc: -1
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

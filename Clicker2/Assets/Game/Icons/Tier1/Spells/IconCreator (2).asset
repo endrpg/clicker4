@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: IconCreator (2)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 0ee200607c958b44f83f02fdd1f0680a, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Star Attack
+  iconDescription: +1 Perm Strength
+  strength: 0
   defense: 0
   accuracy: 0
   luckPercent: 0
@@ -24,15 +24,16 @@ MonoBehaviour:
   healPower: 0
   amount: 5
   maxAmount: 5
-  price: 50
+  price: 200
   infinite: 0
-  permanentStrengthInc: 0
+  permanentStrengthInc: 1
   permanentDefenseInc: 0
   permanentAccuracyInc: 0
   permanentDodgeInc: 0
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: e74d7ad131dc34344bdff1f5d5ed81e3, type: 3}
   iconTitle: Kneepads
-  iconDescription: Protects the joints.
+  iconDescription: +5 Def -1 Str
   strength: 0
   defense: 0
   accuracy: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

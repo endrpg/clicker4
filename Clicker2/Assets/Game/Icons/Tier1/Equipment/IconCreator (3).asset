@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 12ebbae21c9278f4da9dc37646f1a32b, type: 3}
   iconTitle: Basic Boots
-  iconDescription: Comfortable
+  iconDescription: +6 Def
   strength: 0
   defense: 0
   accuracy: 0
@@ -27,12 +27,13 @@ MonoBehaviour:
   price: 33
   infinite: 1
   permanentStrengthInc: 0
-  permanentDefenseInc: 13
+  permanentDefenseInc: 6
   permanentAccuracyInc: 0
   permanentDodgeInc: 0
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: IconCreator (26)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: f4d543c5040b5fd4a80e4fd28bdc4d41, type: 3}
-  iconTitle: Dull Ring of Whispers
-  iconDescription: Increases Paranormal Activity
+  iconTitle: Reverse Ring
+  iconDescription: +25 Str -25 Def
   strength: 0
   defense: 0
   accuracy: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   healPower: 0
   amount: 0
   maxAmount: 0
-  price: 50
+  price: 250
   infinite: 1
   permanentStrengthInc: 25
   permanentDefenseInc: -25
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

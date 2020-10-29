@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 11ffe6dabc9e8e548893306ae95fd66e, type: 3}
   iconTitle: Dress Slacks
-  iconDescription: Blue in color.
+  iconDescription: +4 Def
   strength: 0
   defense: 0
   accuracy: 0
@@ -27,12 +27,13 @@ MonoBehaviour:
   price: 50
   infinite: 1
   permanentStrengthInc: 0
-  permanentDefenseInc: 14
+  permanentDefenseInc: 4
   permanentAccuracyInc: 0
   permanentDodgeInc: 0
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0
