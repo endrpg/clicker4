@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: af1d1989eb4deee4ea968fa0cfb30995, type: 3}
   iconTitle: Slingshot
-  iconDescription: 
+  iconDescription: +22 Attack
   strength: 0
   defense: 0
   accuracy: 0
@@ -23,16 +23,17 @@ MonoBehaviour:
   critmultiplier: 0
   healPower: 0
   amount: 0
-  maxAmount: 0
+  maxAmount: 1
   price: 100
   infinite: 1
-  permanentStrengthInc: 50
+  permanentStrengthInc: 22
   permanentDefenseInc: 0
   permanentAccuracyInc: 0
   permanentDodgeInc: 0
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

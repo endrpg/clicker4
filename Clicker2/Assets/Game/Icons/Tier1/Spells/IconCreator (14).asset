@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (14)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 974d4f527a2dd6c4b90e1856522fc407, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
-  defense: 0
+  iconTitle: Mirror Defense
+  iconDescription: 25 Defense
+  strength: 0
+  defense: 25
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
+  amount: 0
   maxAmount: 5
-  price: 50
+  price: 400
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

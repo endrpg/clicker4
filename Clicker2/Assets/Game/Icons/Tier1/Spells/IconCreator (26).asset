@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: IconCreator (26)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: fa0254d3b47eba54095de103c48fa5d3, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
-  defense: 0
+  iconTitle: Shield Reflect
+  iconDescription: +60 Defense
+  strength: 0
+  defense: 60
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   healPower: 0
   amount: 5
   maxAmount: 5
-  price: 50
+  price: 80
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

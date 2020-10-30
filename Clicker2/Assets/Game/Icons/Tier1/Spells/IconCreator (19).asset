@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (19)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: f58c7e04ae27add4bb96616cb841516d, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Cyclone Sword
+  iconDescription: +100 Damage
+  strength: 100
   defense: 0
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 2
+  price: 150
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

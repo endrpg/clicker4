@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (18)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: e9b4671caae6e7243a94eae52538f809, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Frost Explosion
+  iconDescription: +35 Damage
+  strength: 35
   defense: 0
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 8
+  price: 120
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,7 +33,8 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
-  type: 0
+  type: 3
   equipment: 0

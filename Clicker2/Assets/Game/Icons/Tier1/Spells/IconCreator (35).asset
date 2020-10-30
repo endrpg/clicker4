@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: IconCreator (35)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 4facb003032c74f46a04fc4f998c27e8, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 0
+  iconTitle: Necronomicon
+  iconDescription: +1000 Damage
+  strength: 1000
   defense: 0
   accuracy: 0
   luckPercent: 0
@@ -23,17 +23,18 @@ MonoBehaviour:
   critmultiplier: 0
   healPower: 0
   amount: 0
-  maxAmount: 0
-  price: 0
+  maxAmount: 1
+  price: 1000
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
-  permanentAccuracyInc: 0
-  permanentDodgeInc: 0
-  permanentLuckinc: 0
+  permanentAccuracyInc: -22
+  permanentDodgeInc: -100
+  permanentLuckinc: -100
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
-  type: 0
+  type: 6
   equipment: 0

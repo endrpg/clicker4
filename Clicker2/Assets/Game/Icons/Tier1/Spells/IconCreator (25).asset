@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: IconCreator (25)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 550fdca7c5a222f46a82edcf2cb4c954, type: 3}
-  iconTitle: 
-  iconDescription: 
+  iconTitle: Rainbow Star
+  iconDescription: +5 Stats
   strength: 50
   defense: 0
   accuracy: 0
@@ -22,17 +22,18 @@ MonoBehaviour:
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 1
+  price: 300
   infinite: 0
-  permanentStrengthInc: 0
-  permanentDefenseInc: 0
-  permanentAccuracyInc: 0
-  permanentDodgeInc: 0
-  permanentLuckinc: 0
-  hpIncrease: 0
+  permanentStrengthInc: 5
+  permanentDefenseInc: 5
+  permanentAccuracyInc: 1
+  permanentDodgeInc: 1
+  permanentLuckinc: 5
+  hpIncrease: 5
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

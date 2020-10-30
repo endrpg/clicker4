@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (22)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 4bf9442be20ef9045af5830299d40665, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Strange Flower
+  iconDescription: +100 HP +100 Damage
+  strength: 100
   defense: 0
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 1
+  price: 300
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -32,7 +32,8 @@ MonoBehaviour:
   permanentDodgeInc: 0
   permanentLuckinc: 0
   hpIncrease: 0
-  lifeIncrease: 0
+  lifeIncrease: 100
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

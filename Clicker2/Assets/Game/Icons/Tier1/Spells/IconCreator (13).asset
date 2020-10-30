@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (13)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: 91194798ffd680041b6dd774f6500d10, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Shield Thrust
+  iconDescription: +25 Damage
+  strength: 25
   defense: 0
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
-  maxAmount: 5
-  price: 50
+  amount: 0
+  maxAmount: 10
+  price: 150
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0

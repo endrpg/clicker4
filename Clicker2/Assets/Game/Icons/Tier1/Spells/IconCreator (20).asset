@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: IconCreator (20)
   m_EditorClassIdentifier: 
   iconSprite: {fileID: 21300000, guid: e0bf8e81ed1a0fa4d9d8eeb688f55d3a, type: 3}
-  iconTitle: 
-  iconDescription: 
-  strength: 50
+  iconTitle: Roundhouse Sword
+  iconDescription: +90 Damage
+  strength: 90
   defense: 0
   accuracy: 0
   luckPercent: 0
   criticalAtkpercentage: 0
   critmultiplier: 0
   healPower: 0
-  amount: 5
+  amount: 0
   maxAmount: 5
-  price: 50
+  price: 130
   infinite: 0
   permanentStrengthInc: 0
   permanentDefenseInc: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   permanentLuckinc: 0
   hpIncrease: 0
   lifeIncrease: 0
+  uniqueId: 
   effect: {fileID: 0}
   tiers: 0
   type: 0
