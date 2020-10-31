@@ -400,8 +400,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09cca6a50afeb054b92a3df8ca85b07d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toShow: {fileID: 0}
-  toUnshow: {fileID: 0}
+  toShow: {fileID: 1171110496131663202, guid: 5d69bdf1c0c6a4b47b4ca054d4dbcca4, type: 3}
+  toUnshow: {fileID: 3808748164933087266, guid: 890e11baa0912d14887e6c3ccf4d2b54,
+    type: 3}
+  toShow1: {fileID: 0}
 --- !u!1 &7142759699104601871
 GameObject:
   m_ObjectHideFlags: 0

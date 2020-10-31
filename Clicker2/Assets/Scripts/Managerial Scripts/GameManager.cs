@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour,ISaveable
     public GameObject slotPrefab;
     public float warsFought = 0f;
     [Range(0,3)]public int hearts;
+    public GameObject enemyG;
     public int tempType; // Received from attackButtonSccript
     void Awake()
     {
@@ -161,8 +162,9 @@ public class GameManager : MonoBehaviour,ISaveable
             enemy = null;
             myEnemyObj = Tier3Enemy[randomNum];
         }
-        GameObject enemyG = (GameObject)Instantiate(enemyPrefab,new Vector2((float)-306.2,(float)-164.98),Quaternion.identity);
-        enemyG.transform.SetParent(GameObject.Find("War Panel").transform,false);
+        // GameObject enemyG = (GameObject)Instantiate(enemyPrefab,new Vector2((float)-306.2,(float)-164.98),Quaternion.identity);
+        // enemyG.transform.SetParent(GameObject.Find("War Panel").transform,false);
+        // Hello
         enemyG.GetComponent<Image>().sprite = myEnemyObj.enemySprite;
         enemy = enemyG.GetComponent<Enemy>();
         enemy.attack = myEnemyObj.attack;
@@ -241,7 +243,7 @@ public class GameManager : MonoBehaviour,ISaveable
         var allIconsList = GameObject.Find("Store Manager").GetComponent<StoreManager>().allIcons;
         for(int i = 0; i < allIconsList.Count; i++)
         {
-            var itemId = allIconsList[i];
+            var itemId = allIconsList[i].uniqueId;
             int pos = System.Array.IndexOf(restoreList,itemId);
             if(pos > -1)
             {

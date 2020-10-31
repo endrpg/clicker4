@@ -50,7 +50,10 @@ public class EquipmentManager : MonoBehaviour,ISaveable
         SpriteEx(shieldSp,shield);
         SpriteEx(ring1Sp,ring1);
         SpriteEx(ring2Sp,ring2);
-        foreach (var item in Equipment)
+    }
+    public void Draw()
+    {
+        foreach(var item in Equipment)
         {
             GameObject equipmentSlots = Instantiate(slotPrefab,transform.position,Quaternion.identity);
             equipmentSlots.transform.SetParent(parentPanel.transform,false);
@@ -85,7 +88,7 @@ public class EquipmentManager : MonoBehaviour,ISaveable
         {
             slotStrings[i] = Equipment[i].uniqueId;
         }
-        data["EquipmentList"] = slotStrings;
+        data["myEquipmentList"] = slotStrings;
         data["headE"] = head;
         data["chestE"] = chest;
         data["torsoE"] = torso;
@@ -100,13 +103,14 @@ public class EquipmentManager : MonoBehaviour,ISaveable
     {
         Dictionary<string,object> data = (Dictionary<string,object>) state;
         var restoreList = (string[])data["myEquipmentList"];
-        foreach(var item in GameObject.Find("Store Manager").GetComponent<StoreManager>().allIcons)
+        var allIconsList = GameObject.Find("Store Manager").GetComponent<StoreManager>().allIcons;
+        for(int i = 0; i < allIconsList.Count; i++)
         {
-            var itemId = item.uniqueId;
+            var itemId = allIconsList[i].uniqueId;
             int pos = System.Array.IndexOf(restoreList,itemId);
             if(pos > -1)
             {
-                Equipment.Add(item);
+                Equipment.Add(allIconsList[i]);
             }
         }
         head = (IconCreator)data["headE"];

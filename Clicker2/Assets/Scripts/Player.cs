@@ -22,7 +22,7 @@ public class Player : MonoBehaviour,ISaveable
         {
             instantiated = true;
             GameManager.Instance.currentTurn = true;
-            GameObject lost = Instantiate(losePanel,GameObject.Find("War Panel").transform);
+            losePanel.SetActive(true);
             GameManager.Instance.hearts -= 1;
             GameManager.Instance.warsFought += 1;
             GameManager.Instance.AddGold(Random.Range(1,10));

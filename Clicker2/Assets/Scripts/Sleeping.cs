@@ -20,6 +20,8 @@ public class Sleeping : MonoBehaviour
     {
         me.onClick.RemoveAllListeners();
         me.onClick.AddListener(delegate{Sleep();});
+        toUnshow = GameObject.Find("Canvas (1)");
+        toShow = GameObject.Find("Canvas");
     }
     void Sleep()
     {
@@ -31,8 +33,6 @@ public class Sleeping : MonoBehaviour
         else if(GameManager.Instance.hearts == 0)
         {
             GameManager.Instance.GameReset();
-            toUnshow = GameObject.Find("Canvas (1)");
-            toShow = GameObject.Find("Canvas");
             toUnshow.SetActive(false);
             toShow.SetActive(true);
         }

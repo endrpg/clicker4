@@ -25,10 +25,9 @@ public class NextButton : MonoBehaviour
     }
     void GoWar()
     {
-        toUnshow = GameObject.Find("Canvas (1)");
-        toShow = GameObject.Find("Canvas");
-        toShow.SetActive(true);
-        toUnshow.SetActive(false);
+        toShow.gameObject.SetActive(true);
+        toUnshow.gameObject.SetActive(false);
+        GameObject.Find("Store Manager").GetComponent<StoreManager>().RandomiseStore();
         if(GameManager.Instance.hearts == 0)
         {
             GameManager.Instance.GameReset();

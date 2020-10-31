@@ -399,6 +399,5 @@ MonoBehaviour:
   attack: 5
   health: 100
   defense: 10
-  winPanel: {fileID: 8497845813883128151, guid: 9877d27bd88dd3944860dfadc8b8ad52,
-    type: 3}
+  winPanel: {fileID: 0}
   instantiated: 0

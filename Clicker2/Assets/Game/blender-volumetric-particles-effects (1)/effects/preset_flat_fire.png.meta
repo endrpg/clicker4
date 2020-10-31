@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: f48ed8377979cad4ba268f885bb77e48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1302568582621422638
+    second: preset_flat_fire_0
+  - first:
+      213: -6248567830519715416
+    second: preset_flat_fire_1
+  - first:
+      213: -5844327509109430336
+    second: preset_flat_fire_2
+  - first:
+      213: -4690407403730506991
+    second: preset_flat_fire_3
+  - first:
+      213: 3638763032866744313
+    second: preset_flat_fire_4
+  - first:
+      213: 4436390135665911206
+    second: preset_flat_fire_5
+  - first:
+      213: 7609883978223434852
+    second: preset_flat_fire_6
+  - first:
+      213: 2949555708379132536
+    second: preset_flat_fire_7
+  - first:
+      213: 8040282903262964339
+    second: preset_flat_fire_8
+  - first:
+      213: -1335297753187347481
+    second: preset_flat_fire_9
+  - first:
+      213: -5238926571112350009
+    second: preset_flat_fire_10
+  - first:
+      213: 2657810770974747559
+    second: preset_flat_fire_11
+  - first:
+      213: -5020780358473618152
+    second: preset_flat_fire_12
+  - first:
+      213: -512223103366987291
+    second: preset_flat_fire_13
+  - first:
+      213: -5019223309985107202
+    second: preset_flat_fire_14
+  - first:
+      213: 535342645499804199
+    second: preset_flat_fire_15
+  - first:
+      213: -3481714021992391938
+    second: preset_flat_fire_16
+  - first:
+      213: -2184497454532942743
+    second: preset_flat_fire_17
+  - first:
+      213: -7802052319945191261
+    second: preset_flat_fire_18
+  - first:
+      213: -2723021854681695159
+    second: preset_flat_fire_19
+  - first:
+      213: -2538853574834060350
+    second: preset_flat_fire_20
+  - first:
+      213: 5066376377575666116
+    second: preset_flat_fire_21
+  - first:
+      213: -8671431564963380103
+    second: preset_flat_fire_22
+  - first:
+      213: 8478355019085833033
+    second: preset_flat_fire_23
+  - first:
+      213: -1935412044554517657
+    second: preset_flat_fire_24
+  - first:
+      213: 735366874307787028
+    second: preset_flat_fire_25
+  - first:
+      213: 2014847291944640227
+    second: preset_flat_fire_26
+  - first:
+      213: -3731825582822669798
+    second: preset_flat_fire_27
+  - first:
+      213: -5355215366827883025
+    second: preset_flat_fire_28
+  - first:
+      213: 6743563839813951010
+    second: preset_flat_fire_29
+  - first:
+      213: 6041878891262632673
+    second: preset_flat_fire_30
+  - first:
+      213: -4635978099800696690
+    second: preset_flat_fire_31
+  - first:
+      213: 8948547724878326986
+    second: preset_flat_fire_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: preset_flat_fire_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 544
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ebbe7937a31210800000000000000
+      internalID: 1302568582621422638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 543
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a960fa1aa0a849a0800000000000000
+      internalID: -6248567830519715416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 539
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c72d745817c4eea0800000000000000
+      internalID: -5844327509109430336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_3
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 541
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11be7c0315358eeb0800000000000000
+      internalID: -4690407403730506991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 539
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f768db03bb7f7230800000000000000
+      internalID: 3638763032866744313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 537
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5e969c259319d30800000000000000
+      internalID: 4436390135665911206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 417
+        width: 75
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cb1f7c82dbb9960800000000000000
+      internalID: 7609883978223434852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 417
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872f9231a4deee820800000000000000
+      internalID: 2949555708379132536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 417
+        width: 99
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37aa2a683b2d49f60800000000000000
+      internalID: 8040282903262964339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 414
+        width: 106
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e314e7a4c1187de0800000000000000
+      internalID: -1335297753187347481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_10
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 429
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce3e746a089b47b0800000000000000
+      internalID: -5238926571112350009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 411
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab282480d072e420800000000000000
+      internalID: 2657810770974747559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 414
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81debed7dda925ab0800000000000000
+      internalID: -5020780358473618152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 287
+        width: 79
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e100162dc734e8f0800000000000000
+      internalID: -512223103366987291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 287
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef23af71ef2285ab0800000000000000
+      internalID: -5019223309985107202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 287
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a322abc4bed6700800000000000000
+      internalID: 535342645499804199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 287
+        width: 84
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa95ad3b877eafc0800000000000000
+      internalID: -3481714021992391938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_17
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 285
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a1d9932b1fa1e0800000000000000
+      internalID: -2184497454532942743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_18
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 286
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a097a680ca89b390800000000000000
+      internalID: -7802052319945191261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 160
+        width: 79
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c7214ec02e53ad0800000000000000
+      internalID: -2723021854681695159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 160
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c30947002e24ccd0800000000000000
+      internalID: -2538853574834060350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 162
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1f3dbf8726f4640800000000000000
+      internalID: 5066376377575666116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9748f345fe2e8a780800000000000000
+      internalID: -8671431564963380103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_23
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 166
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943e24838fa29a570800000000000000
+      internalID: 8478355019085833033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_24
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 166
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763c05eeff80425e0800000000000000
+      internalID: -1935412044554517657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 48
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41974baa64c843a00800000000000000
+      internalID: 735366874307787028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee9409dfec26fb10800000000000000
+      internalID: 2014847291944640227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_27
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 51
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12c32c8764e53cc0800000000000000
+      internalID: -3731825582822669798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 49
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5c28c3ff37ea5b0800000000000000
+      internalID: -5355215366827883025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_29
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e97485593f59d50800000000000000
+      internalID: 6743563839813951010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 50
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2e3a127d019d350800000000000000
+      internalID: 6041878891262632673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_31
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 53
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8893ee0b72b9afb0800000000000000
+      internalID: -4635978099800696690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preset_flat_fire_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 44
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acca00d8eb0af2c70800000000000000
+      internalID: 8948547724878326986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

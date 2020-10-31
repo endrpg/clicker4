@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
         {
             instantiated = true;
             GameManager.Instance.currentTurn = true;
-            GameObject lost = Instantiate(winPanel,GameObject.Find("War Panel").transform);
+            winPanel.SetActive(true);
             GameManager.Instance.warsFought += 1;
             GameManager.Instance.AddGold(GameManager.Instance.ReturnEnemyGold());
         }

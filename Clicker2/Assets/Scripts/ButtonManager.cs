@@ -12,6 +12,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField]GameObject unshow2;
     [SerializeField]GameObject unshow3;
     [SerializeField]GameObject unshow4;
+    public bool equipment = false;
     private Button myButton;
     void Start()
     {
@@ -38,6 +39,10 @@ public class ButtonManager : MonoBehaviour
     {
         if(show != null)
         {
+            if(equipment == true)
+            {
+                EquipmentManager.Instance.Draw();
+            }
             show.SetActive(true);
         }
     }
